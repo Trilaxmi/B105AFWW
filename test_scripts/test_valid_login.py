@@ -12,10 +12,10 @@ class Test_ValidLogin(BaseClass):
 
     # Enter valid username
         login_page=LoginPage(self.driver)
-        login_page.set_un('admin')
+        login_page.set_un(un)
 
     # Enter valid password
-        login_page.set_pw('pointofsale')
+        login_page.set_pw(pw)
     # Click on go button
         login_page.click_go()
     # Verify homepage is displayed.
