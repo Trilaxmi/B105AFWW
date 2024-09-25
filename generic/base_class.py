@@ -2,7 +2,7 @@ import os
 import time
 import pytest
 from selenium.webdriver import Chrome
-from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
 from pyjavaproperties import Properties
 from selenium.webdriver import Firefox
 from selenium.webdriver.chrome.options import Options as ChromeOptions
